@@ -21,7 +21,7 @@ namespace Ej1RegistroAutomotor
 
         public string VerDetalles()
         {
-            return $"Patente: {Patente}, Numero de serie: {Serie}, Propietario:{Propietario}";
+            return $"Patente: {Patente},\n Numero de serie: {Serie},\n Propietario:{Propietario.nombre}\n DNI:{Propietario.DNI}\n";
         }
 
     }

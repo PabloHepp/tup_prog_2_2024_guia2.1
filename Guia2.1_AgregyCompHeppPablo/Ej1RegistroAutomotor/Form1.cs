@@ -31,7 +31,7 @@ namespace Ej1RegistroAutomotor
                 RegistroVehiculo unregistro;
                 unregistro = vehiculos.RegistrarVehiculo(nueva);
 
-                listBPersonas.Items.Add(unregistro.VerDetalles());
+                listBPersonas.Items.Add(nueva.DetallePersona());
                
             }
 

@@ -30,6 +30,11 @@ namespace Ej1RegistroAutomotor
             set { dni = value; }
         }
 
+        public string DetallePersona()
+        {
+            return $"Nombre: {nombre}\n DNI: {dni}\n";
+        }
+
 
     }
 }
